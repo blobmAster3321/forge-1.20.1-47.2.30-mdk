@@ -1,6 +1,9 @@
 package net.blobmAster.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.blobmAster.testmod.block.ModBlocks;
+import net.blobmAster.testmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,6 +31,10 @@ public class Testmod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -45,6 +52,19 @@ public class Testmod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.GEMPART);
+            event.accept(ModItems.GEMT1);
+            event.accept(ModItems.GEMT2);
+            event.accept(ModItems.GEMT3);
+
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.GEM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_GEM_ORE);
+
+        }
 
     }
 

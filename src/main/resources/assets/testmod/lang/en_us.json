@@ -1,0 +1,11 @@
+{
+  "item.testmod.gempart": "Crushed Gem",
+  "item.testmod.gemt1": "Lesser Gem",
+  "item.testmod.gemt2": "Gem",
+  "item.testmod.gemt3": "Greater Gem",
+
+  "block.testmod.gem_ore": "Gem Ore",
+  "block.testmod.deepslate_gem_ore": "Deepslate Gem Ore"
+
+
+}
