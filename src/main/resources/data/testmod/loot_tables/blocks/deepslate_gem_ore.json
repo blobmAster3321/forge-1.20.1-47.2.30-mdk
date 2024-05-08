@@ -17,14 +17,14 @@
                       {
                         "enchantment": "minecraft:silk_touch",
                         "levels": {
-                          "min": 1
+                          "min": 1.0
                         }
                       }
                     ]
                   }
                 }
               ],
-              "name": "testmod:gem_ore"
+              "name": "testmod:deepslate_gem_ore"
             },
             {
               "type": "minecraft:item",
@@ -49,8 +49,8 @@
           ]
         }
       ],
-      "rolls": 4.0
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "testmod:block/gem_ore"
+  "random_sequence": "testmod:block/deepslate_gem_ore"
 }

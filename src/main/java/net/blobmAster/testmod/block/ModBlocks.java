@@ -18,7 +18,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Testmod.MOD_ID);
 
     public static final RegistryObject<Block> GEM_ORE = registerBlock("gem_ore",
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
 
     public static final RegistryObject<Block> DEEPSLATE_GEM_ORE = registerBlock("deepslate_gem_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)));

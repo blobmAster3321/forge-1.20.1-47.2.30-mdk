@@ -1,6 +1,7 @@
 {
   "values": [
-    "testmod:ore_gem",
-    "testmod:deepslate_ore_gem"
+    "testmod:gem_ore",
+    "testmod:deepslate_gem_ore"
+
   ]
 }
