@@ -4,6 +4,8 @@
   "item.testmod.gemt2": "Gem",
   "item.testmod.gemt3": "Greater Gem",
 
+  "creativetab.main_mod_tab": "Test Mod",
+
   "block.testmod.gem_ore": "Gem Ore",
   "block.testmod.deepslate_gem_ore": "Deepslate Gem Ore"
 
