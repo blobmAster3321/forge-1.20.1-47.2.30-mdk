@@ -2,6 +2,7 @@ package net.blobmAster.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.blobmAster.testmod.block.ModBlocks;
+import net.blobmAster.testmod.item.ModCreativeModeTabs;
 import net.blobmAster.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -33,6 +34,7 @@ public class Testmod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
