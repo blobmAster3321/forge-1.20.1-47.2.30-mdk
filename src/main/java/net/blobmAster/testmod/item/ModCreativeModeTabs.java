@@ -24,6 +24,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GEMPART.get());
                         pOutput.accept(ModBlocks.GEM_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_GEM_ORE.get());
+                        pOutput.accept(ModItems.EMERALD_SWORD.get());
+                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
+                        pOutput.accept(ModItems.EMERALD_AXE.get());
+                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
+                        pOutput.accept(ModItems.EMERALD_HOE.get());
                     })
                     .build());
 

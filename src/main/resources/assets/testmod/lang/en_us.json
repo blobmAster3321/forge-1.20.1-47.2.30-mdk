@@ -4,6 +4,12 @@
   "item.testmod.gemt2": "Gem",
   "item.testmod.gemt3": "Greater Gem",
 
+  "item.testmod.emerald_sword": "Emerald Sword",
+  "item.testmod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.testmod.emerald_axe": "Emerald Axe",
+  "item.testmod.emerald_shovel": "Emerald Shovel",
+  "item.testmod.emerald_hoe": "Emerald Hoe",
+
   "creativetab.main_mod_tab": "Test Mod",
 
   "block.testmod.gem_ore": "Gem Ore",

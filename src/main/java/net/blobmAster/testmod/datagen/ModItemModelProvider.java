@@ -21,6 +21,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GEMT1);
         simpleItem(ModItems.GEMT2);
         simpleItem(ModItems.GEMT3);
+        simpleItem(ModItems.EMERALD_SWORD);
+        simpleItem(ModItems.EMERALD_AXE);
+        simpleItem(ModItems.EMERALD_PICKAXE);
+        simpleItem(ModItems.EMERALD_SHOVEL);
+        simpleItem(ModItems.EMERALD_HOE);
 
 
     }
