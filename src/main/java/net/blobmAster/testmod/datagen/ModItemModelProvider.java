@@ -32,7 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/generated")).texture("layor0",
+                new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(Testmod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
